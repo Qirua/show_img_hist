@@ -7,9 +7,9 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
 
-im = imreadasdf(img_url)
+im = imread(img_url)
 
-st.image(im, caption='using CD',
+st.image(im, caption='using CI',
          use_column_width=True)
 
 
